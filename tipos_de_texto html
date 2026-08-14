@@ -1,0 +1,8 @@
+ <h1> Primeiro Titulo </h1>
+    <p> Primeiro texto</p>
+    <p> <strong> texto negrito</strong> </p>
+    <p> <em> texto italico</em> </p>
+    <p> <ins>texto sublihado</ins> </p>
+    <p> <del>texto excluido</del> </p>
+    <p> H<sub>2</sub>o </p>
+    <p>M<sup>3</sup>G</p>
