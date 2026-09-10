@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Barber shop</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Barber shop</a><br>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#map">Mapa</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero"></section>
+    <section id="about">
+        <h1>Barber shop</h1>
+        <p>
+Na nossa Barber Shop, você encontra estilo, qualidade e aquele cuidado especial que todo homem merece. Oferecemos cortes modernos, barba bem feita e um atendimento de qualidade em um ambiente confortável e descontraído.
+        </p>
+        </section>
+    <section id = "gallery">
+        <h1>Galeria de Fotos</h1>     
+        <img src="img/9nails-shaving-6560988_1920.jpg"alt="Foto 2" width="700" height="400"><br>
+        <img src="img/annmariephotography-barbershop-4484297_1920.jpg"alt="Foto 3" width="700" height="400"><br>
+        <img src="img/macroodry-clipper-8254064_1920 (1).jpg"alt="Foto 4" width="700" height="400"><br>
+        <img src="img/macroodry-machine-8254051_1920 (1).jpg"alt="Foto 5" width="700" height="400"><br>
+        <img src="img/macroodry-machine-8254053_1920 (1).jpg"alt="Foto 6" width="700" height="400"><br>
+        <img src="img/stocksnap-barbershop-2616805_1920 (1).jpg"alt="Foto 7" width="700" height="400"><br>
+    </section>
+    <section id="map">
+
+    </section>
+    <section id="contact"></section>
+    <footer>
+        &copy; 2026 Todos os Diretios Reservados ::
+        Desenvolvido por: 
+        <a>Guilherme Nunes</a> 
+        <a href="https://github.com/guilhermenunes-jpn">contato</a><br>
+    </footer>
+    
+</body>
+</html>
