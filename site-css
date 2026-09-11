@@ -1,6 +1,7 @@
 body {
     background-color: rgb(52, 97, 115);
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.6rem;
     }
     
     *{
@@ -9,8 +10,9 @@ body {
      box-sizing: border-box;
     }
     html{
-        font-size: 75.65%;
+        font-size: 65.5%;
     }
+
     .navbar ul{
       display: flex;
       list-style: none;
@@ -81,19 +83,84 @@ body {
     }
 
     #gallery {
-        background-color:rgb(255, 255, 255);
+        background-color:rgb(52, 97, 115);
         display: block;
         text-align: center;
-        height: 200px;
-        width: 300px;
+    }
+    
+    #gallery img {
+        height: 300px;
+        width: 400px;
         object-fit: cover;
         display: inline-block;
         margin: 15px;
-        border: 2px solid;
+        border: 2px solid rgb(255, 255, 255);
         box-shadow: 5px  5px 20px rgba(0, 0, 0, 0.5);
         transition: transform 0.3s ease;
     }
 
     #gallery img:hover{
         transform: scale(1.03);
+    }
+
+    #map{
+        background-color: rgb(52, 97, 115);
+        text-align: center;
+    }
+
+    #contact{
+        background-color: rgb(52, 97, 115);
+        align-items: center;
+    }
+
+    #contact form{
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #contact label{
+        font-size: 1.6rem;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    #contact input, #contact textarea{
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        font-size: 1.6rem;
+        border: none;
+        border-radius: 8px;
+    }
+
+    #contact button{
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 255, 255);
+        font-size: 1.6rem;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 100%;
+        transition: background-color 0.3s ease;
+    }
+
+    #contact button:hover{
+        background-color: rgb(0, 0, 0);
+    }
+
+    footer{
+        background-color: rgb(52, 97, 115);
+        color:black;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #footer a{
+        color:black;
+        text-decoration: none;
+        font-weight: bold;
     }
