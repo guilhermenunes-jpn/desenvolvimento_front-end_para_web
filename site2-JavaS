@@ -1,0 +1,87 @@
+let idade = Number(prompt("Qual é sua idade?"));
+
+if(idade >= 18){
+    console.log("Você tem " + idade + " anos. Você é maior de idade. Não vai fazer m****");
+}else{
+    console.log("Você tem " + idade + " anos. Você é menor de idade. Cuidado!");
+}
+
+
+let nota1 = Number(prompt("Digite a primeira nota:"));
+let nota2 = Number(prompt("Digite a segunda nota:"));
+let nota3 = Number(prompt("Digite a terceira nota:"));
+
+let media = (nota1 + nota2 + nota3) / 3;
+
+if(media >= 9){
+    console.log("Excelente! Você foi aprovado, suam média é " + media);
+}else if(media >= 6){
+    console.log("Parabés! Você foi aprovado, suam média é " + media);
+}else{
+    console.log("Que pena! Você foi reprovado, sua média é " + media);
+}
+
+
+let usuario = prompt("Digite seu nome usuario:");
+let senha = Number(prompt("Digite sua senha:"));
+
+if(usuario === "admin" && senha === 1234){
+    console.log("Acesso registrado com sucesso!");
+}else{
+    console.log("Usuário e/ou senha incorreto(s)");
+}
+
+
+let dia = Number(prompt("Digite um número entre 1 a 7 do dia semana:"));
+
+switch(dia){
+    case 1:
+        console.log("Domingo");
+        break;
+    case 2:
+        console.log("Segunda");
+        break;
+    case 3:
+        console.log("Terça");
+        break;
+    case 4:
+        console.log("Quarta");
+        break;
+    case 5:
+        console.log("Quinta");
+        break;
+    case 6:
+        console.log("Sexta");
+        break;
+    case 7:
+        console.log("Sabado");
+        break;
+    default:
+        console.log("Digite um número entre 1 a 7");    
+}
+
+
+for(let i = 1; i <= 5; i++){
+    console.log(i);
+}
+
+let numero = Number(prompt("Entre com um número para exibir a tabuada:"));
+
+for(let i = 1; i <= 10; i++){
+    console.log(numero + " x " + " = " + (numero * i));
+}
+
+
+let contador = 1;
+
+while(contador <= 5){
+    console.log(contador);
+    contador ++;
+}
+
+let numero = 10;
+
+do{
+    console.log(numero);
+    numero ++;
+}while(numero <= 5);
